@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <section className="text-center mt-10">
           <h1 className="text-5xl font-bold mb-6">Grow Your Business with Us</h1>
           <p className="text-lg mb-8">
-            We provide top-quality services that help your business thrive in a competitive world.
+            We provide top-quality services that help your business thrive.
           </p>
           <a
             href="/contact"
@@ -24,15 +24,15 @@ export default function Home() {
         <section className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="p-6 border rounded-lg shadow hover:shadow-lg transition">
             <h2 className="text-2xl font-bold mb-2">Consulting</h2>
-            <p>Expert advice to grow your business efficiently and sustainably.</p>
+            <p>Expert advice to grow your business efficiently.</p>
           </div>
           <div className="p-6 border rounded-lg shadow hover:shadow-lg transition">
             <h2 className="text-2xl font-bold mb-2">Development</h2>
-            <p>Web and mobile solutions tailored to your business needs.</p>
+            <p>Web and mobile solutions tailored to your needs.</p>
           </div>
         </section>
       </main>
       <Footer />
     </>
-  )
+  );
 }

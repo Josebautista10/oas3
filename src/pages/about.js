@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function About() {
   return (
@@ -9,7 +9,6 @@ export default function About() {
         <h1 className="text-3xl font-bold mb-4">About Us</h1>
         <p className="text-lg mb-4">
           MyBusiness has been providing high-quality services for over 10 years.
-          Our team is dedicated to delivering excellent results for every client.
         </p>
         <p className="text-lg">
           We focus on innovation, efficiency, and customer satisfaction. Your success is our priority.
@@ -17,5 +16,5 @@ export default function About() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
