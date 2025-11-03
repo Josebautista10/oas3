@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-oas3-blue: #0B75FF;
+  --color-oas3-yellow: #FFD166;
+  --color-oas3-red: #FF5C5C;
+}
