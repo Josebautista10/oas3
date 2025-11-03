@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="text-center py-6 mt-20 border-t text-gray-500">
-      © {new Date().getFullYear()} MyBusiness. All rights reserved
+    <footer className="bg-gray-100 py-8 mt-16">
+      <div className="max-w-6xl mx-auto px-6 text-center text-gray-700">
+        © {new Date().getFullYear()} OAS3 Services Ltd. All rights reserved.
+      </div>
     </footer>
   );
 }
